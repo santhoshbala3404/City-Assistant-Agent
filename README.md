@@ -166,14 +166,3 @@ Any Groq model that supports tool calling will work (for example `llama-3.3-70b-
 - Persist chat history.
 - Migrate to LangGraph for more advanced agent workflows.
 
-## Security Note
-
-Never commit your `.env` file. It is listed in `.gitignore`. If a key was ever pushed by mistake, revoke it immediately and generate a new one.
-
-## License
-
-MIT License. Feel free to use, modify, and share.
-
-## Author
-
-Your Name - [GitHub](https://github.com/<your-username>)
